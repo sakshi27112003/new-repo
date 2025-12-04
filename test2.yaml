@@ -3,7 +3,8 @@ kind: Project
 metadata:
      name: test-case1
      annotations:
-        argocd.argoproj.io/sync-options: ServerSideApply=true,Validate=false,ApplyOutOfSyncOnly=true
+       openshift.io/display-name: "test1"
+       openshift.io/description: "test1"
 spec:
     finalizers:
     - kubernetes
