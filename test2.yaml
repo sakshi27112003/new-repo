@@ -3,7 +3,6 @@ kind: Project
 metadata:
      name: test-case2
      annotations:
-       argocd.argoproj.io/sync-options: SkipDryRunOnMissingResource=true,ServerSideApply=true,ApplyOutOfSyncOnly=true
        openshift.io/display-name: "test1"
        openshift.io/description: "test1"
 spec:
