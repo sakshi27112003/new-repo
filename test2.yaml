@@ -4,8 +4,6 @@ metadata:
      name: test-case1
      annotations:
         argocd.argoproj.io/sync-options: SkipDryRunOnMissingResource=true,ServerSideApply=true,Validate=false,ApplyOutOfSyncOnly=true
-        openshift.io/display-name: "test"
-        openshift.io/description: "test"
 spec:
     finalizers:
     - kubernetes
