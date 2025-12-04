@@ -3,7 +3,7 @@ kind: Project
 metadata:
      name: test-case1
      annotations:
-        argocd.argoproj.io/sync-options: SkipDryRunOnMissingResource=true,ServerSideApply=true,Validate=false,ApplyOutOfSyncOnly=true
+        argocd.argoproj.io/sync-options: ServerSideApply=true,Validate=false,ApplyOutOfSyncOnly=true
 spec:
     finalizers:
     - kubernetes
